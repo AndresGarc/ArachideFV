@@ -5,6 +5,7 @@
 int main() {
 
   //BUCLE DEL JUEGO
+//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa
     //al tratarse de ser el contexto -> este debe ser ambiguo
     // AL ESTADO -> tiene que controlar el estado en el que esta
     // dependiendo del estado va a realizar el input / update / render
