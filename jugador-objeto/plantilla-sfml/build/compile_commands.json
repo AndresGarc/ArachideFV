@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/alu/Desktop/jugador-objeto/plantilla-sfml/build",
+  "command": "/usr/bin/g++-5      -std=c++1y -Wall -Wextra -g   -o CMakeFiles/prueba.dir/main.cpp.o -c /home/alu/Desktop/jugador-objeto/plantilla-sfml/main.cpp",
+  "file": "/home/alu/Desktop/jugador-objeto/plantilla-sfml/main.cpp"
+},
+{
+  "directory": "/home/alu/Desktop/jugador-objeto/plantilla-sfml/build",
+  "command": "/usr/bin/g++-5      -std=c++1y -Wall -Wextra -g   -o CMakeFiles/prueba.dir/src/Arachide.cpp.o -c /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Arachide.cpp",
+  "file": "/home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Arachide.cpp"
+},
+{
+  "directory": "/home/alu/Desktop/jugador-objeto/plantilla-sfml/build",
+  "command": "/usr/bin/g++-5      -std=c++1y -Wall -Wextra -g   -o CMakeFiles/prueba.dir/src/Jugador.cpp.o -c /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Jugador.cpp",
+  "file": "/home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Jugador.cpp"
+},
+{
+  "directory": "/home/alu/Desktop/jugador-objeto/plantilla-sfml/build",
+  "command": "/usr/bin/g++-5      -std=c++1y -Wall -Wextra -g   -o CMakeFiles/prueba.dir/src/Sprite_arachide.cpp.o -c /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Sprite_arachide.cpp",
+  "file": "/home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Sprite_arachide.cpp"
+},
+{
+  "directory": "/home/alu/Desktop/jugador-objeto/plantilla-sfml/build",
+  "command": "/usr/bin/g++-5      -std=c++1y -Wall -Wextra -g   -o CMakeFiles/prueba.dir/src/Vida.cpp.o -c /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Vida.cpp",
+  "file": "/home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Vida.cpp"
+},
+{
+  "directory": "/home/alu/Desktop/jugador-objeto/plantilla-sfml/build",
+  "command": "/usr/bin/g++-5      -std=c++1y -Wall -Wextra -g   -o CMakeFiles/prueba.dir/src/Objeto.cpp.o -c /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Objeto.cpp",
+  "file": "/home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Objeto.cpp"
+}
+]

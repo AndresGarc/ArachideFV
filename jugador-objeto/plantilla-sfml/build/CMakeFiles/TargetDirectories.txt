@@ -1,0 +1,3 @@
+/home/alu/Desktop/jugador-objeto/plantilla-sfml/build/CMakeFiles/edit_cache.dir
+/home/alu/Desktop/jugador-objeto/plantilla-sfml/build/CMakeFiles/rebuild_cache.dir
+/home/alu/Desktop/jugador-objeto/plantilla-sfml/build/CMakeFiles/prueba.dir
