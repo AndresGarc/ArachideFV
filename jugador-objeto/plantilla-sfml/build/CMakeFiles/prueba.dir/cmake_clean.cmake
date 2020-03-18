@@ -5,6 +5,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/prueba.dir/src/Sprite_arachide.cpp.o"
   "CMakeFiles/prueba.dir/src/Vida.cpp.o"
   "CMakeFiles/prueba.dir/src/Objeto.cpp.o"
+  "CMakeFiles/prueba.dir/src/Moneda.cpp.o"
+  "CMakeFiles/prueba.dir/src/Arma.cpp.o"
+  "CMakeFiles/prueba.dir/src/Cofre.cpp.o"
   "prueba.pdb"
   "prueba"
 )

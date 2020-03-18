@@ -201,6 +201,78 @@ CMakeFiles/prueba.dir/src/Objeto.cpp.o.provides: CMakeFiles/prueba.dir/src/Objet
 CMakeFiles/prueba.dir/src/Objeto.cpp.o.provides.build: CMakeFiles/prueba.dir/src/Objeto.cpp.o
 
 
+CMakeFiles/prueba.dir/src/Moneda.cpp.o: CMakeFiles/prueba.dir/flags.make
+CMakeFiles/prueba.dir/src/Moneda.cpp.o: ../src/Moneda.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alu/Desktop/jugador-objeto/plantilla-sfml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/prueba.dir/src/Moneda.cpp.o"
+	/usr/bin/g++-5   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prueba.dir/src/Moneda.cpp.o -c /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Moneda.cpp
+
+CMakeFiles/prueba.dir/src/Moneda.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prueba.dir/src/Moneda.cpp.i"
+	/usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Moneda.cpp > CMakeFiles/prueba.dir/src/Moneda.cpp.i
+
+CMakeFiles/prueba.dir/src/Moneda.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prueba.dir/src/Moneda.cpp.s"
+	/usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Moneda.cpp -o CMakeFiles/prueba.dir/src/Moneda.cpp.s
+
+CMakeFiles/prueba.dir/src/Moneda.cpp.o.requires:
+
+.PHONY : CMakeFiles/prueba.dir/src/Moneda.cpp.o.requires
+
+CMakeFiles/prueba.dir/src/Moneda.cpp.o.provides: CMakeFiles/prueba.dir/src/Moneda.cpp.o.requires
+	$(MAKE) -f CMakeFiles/prueba.dir/build.make CMakeFiles/prueba.dir/src/Moneda.cpp.o.provides.build
+.PHONY : CMakeFiles/prueba.dir/src/Moneda.cpp.o.provides
+
+CMakeFiles/prueba.dir/src/Moneda.cpp.o.provides.build: CMakeFiles/prueba.dir/src/Moneda.cpp.o
+
+
+CMakeFiles/prueba.dir/src/Arma.cpp.o: CMakeFiles/prueba.dir/flags.make
+CMakeFiles/prueba.dir/src/Arma.cpp.o: ../src/Arma.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alu/Desktop/jugador-objeto/plantilla-sfml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/prueba.dir/src/Arma.cpp.o"
+	/usr/bin/g++-5   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prueba.dir/src/Arma.cpp.o -c /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Arma.cpp
+
+CMakeFiles/prueba.dir/src/Arma.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prueba.dir/src/Arma.cpp.i"
+	/usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Arma.cpp > CMakeFiles/prueba.dir/src/Arma.cpp.i
+
+CMakeFiles/prueba.dir/src/Arma.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prueba.dir/src/Arma.cpp.s"
+	/usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Arma.cpp -o CMakeFiles/prueba.dir/src/Arma.cpp.s
+
+CMakeFiles/prueba.dir/src/Arma.cpp.o.requires:
+
+.PHONY : CMakeFiles/prueba.dir/src/Arma.cpp.o.requires
+
+CMakeFiles/prueba.dir/src/Arma.cpp.o.provides: CMakeFiles/prueba.dir/src/Arma.cpp.o.requires
+	$(MAKE) -f CMakeFiles/prueba.dir/build.make CMakeFiles/prueba.dir/src/Arma.cpp.o.provides.build
+.PHONY : CMakeFiles/prueba.dir/src/Arma.cpp.o.provides
+
+CMakeFiles/prueba.dir/src/Arma.cpp.o.provides.build: CMakeFiles/prueba.dir/src/Arma.cpp.o
+
+
+CMakeFiles/prueba.dir/src/Cofre.cpp.o: CMakeFiles/prueba.dir/flags.make
+CMakeFiles/prueba.dir/src/Cofre.cpp.o: ../src/Cofre.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alu/Desktop/jugador-objeto/plantilla-sfml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/prueba.dir/src/Cofre.cpp.o"
+	/usr/bin/g++-5   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prueba.dir/src/Cofre.cpp.o -c /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Cofre.cpp
+
+CMakeFiles/prueba.dir/src/Cofre.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prueba.dir/src/Cofre.cpp.i"
+	/usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Cofre.cpp > CMakeFiles/prueba.dir/src/Cofre.cpp.i
+
+CMakeFiles/prueba.dir/src/Cofre.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prueba.dir/src/Cofre.cpp.s"
+	/usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Cofre.cpp -o CMakeFiles/prueba.dir/src/Cofre.cpp.s
+
+CMakeFiles/prueba.dir/src/Cofre.cpp.o.requires:
+
+.PHONY : CMakeFiles/prueba.dir/src/Cofre.cpp.o.requires
+
+CMakeFiles/prueba.dir/src/Cofre.cpp.o.provides: CMakeFiles/prueba.dir/src/Cofre.cpp.o.requires
+	$(MAKE) -f CMakeFiles/prueba.dir/build.make CMakeFiles/prueba.dir/src/Cofre.cpp.o.provides.build
+.PHONY : CMakeFiles/prueba.dir/src/Cofre.cpp.o.provides
+
+CMakeFiles/prueba.dir/src/Cofre.cpp.o.provides.build: CMakeFiles/prueba.dir/src/Cofre.cpp.o
+
+
 # Object files for target prueba
 prueba_OBJECTS = \
 "CMakeFiles/prueba.dir/main.cpp.o" \
@@ -208,7 +280,10 @@ prueba_OBJECTS = \
 "CMakeFiles/prueba.dir/src/Jugador.cpp.o" \
 "CMakeFiles/prueba.dir/src/Sprite_arachide.cpp.o" \
 "CMakeFiles/prueba.dir/src/Vida.cpp.o" \
-"CMakeFiles/prueba.dir/src/Objeto.cpp.o"
+"CMakeFiles/prueba.dir/src/Objeto.cpp.o" \
+"CMakeFiles/prueba.dir/src/Moneda.cpp.o" \
+"CMakeFiles/prueba.dir/src/Arma.cpp.o" \
+"CMakeFiles/prueba.dir/src/Cofre.cpp.o"
 
 # External object files for target prueba
 prueba_EXTERNAL_OBJECTS =
@@ -219,6 +294,9 @@ prueba: CMakeFiles/prueba.dir/src/Jugador.cpp.o
 prueba: CMakeFiles/prueba.dir/src/Sprite_arachide.cpp.o
 prueba: CMakeFiles/prueba.dir/src/Vida.cpp.o
 prueba: CMakeFiles/prueba.dir/src/Objeto.cpp.o
+prueba: CMakeFiles/prueba.dir/src/Moneda.cpp.o
+prueba: CMakeFiles/prueba.dir/src/Arma.cpp.o
+prueba: CMakeFiles/prueba.dir/src/Cofre.cpp.o
 prueba: CMakeFiles/prueba.dir/build.make
 prueba: /usr/lib/x86_64-linux-gnu/libsfml-system.so
 prueba: /usr/lib/x86_64-linux-gnu/libsfml-window.so
@@ -226,7 +304,7 @@ prueba: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so
 prueba: /usr/lib/x86_64-linux-gnu/libsfml-network.so
 prueba: /usr/lib/x86_64-linux-gnu/libsfml-audio.so
 prueba: CMakeFiles/prueba.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alu/Desktop/jugador-objeto/plantilla-sfml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable prueba"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alu/Desktop/jugador-objeto/plantilla-sfml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable prueba"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/prueba.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -240,6 +318,9 @@ CMakeFiles/prueba.dir/requires: CMakeFiles/prueba.dir/src/Jugador.cpp.o.requires
 CMakeFiles/prueba.dir/requires: CMakeFiles/prueba.dir/src/Sprite_arachide.cpp.o.requires
 CMakeFiles/prueba.dir/requires: CMakeFiles/prueba.dir/src/Vida.cpp.o.requires
 CMakeFiles/prueba.dir/requires: CMakeFiles/prueba.dir/src/Objeto.cpp.o.requires
+CMakeFiles/prueba.dir/requires: CMakeFiles/prueba.dir/src/Moneda.cpp.o.requires
+CMakeFiles/prueba.dir/requires: CMakeFiles/prueba.dir/src/Arma.cpp.o.requires
+CMakeFiles/prueba.dir/requires: CMakeFiles/prueba.dir/src/Cofre.cpp.o.requires
 
 .PHONY : CMakeFiles/prueba.dir/requires
 

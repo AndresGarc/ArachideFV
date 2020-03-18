@@ -4,12 +4,15 @@
 #include <iostream>
 
 #include "Sprite_arachide.h"
+#include"Arma.h"
+#include "Cofre.h"
 
 using namespace sf;
 enum estados{reposo, andando,corriendo,muerto};
 enum direcciones{arriba, izq_arriba, der_arriba, derecha,   der_abajo,   izq_abajo, abajo,  izquierda};
 enum armas{normal,bate,latigo};
 
+using namespace std;
 
 class Jugador: public Sprite_arachide{
     
@@ -17,13 +20,17 @@ class Jugador: public Sprite_arachide{
 	private:
       
 		
-		Vector2f  pos_jugador,pos_rect;
-		int numvidas;
-		
+		Vector2f  pos_jugador,pos_rect,pos_vida,pos_moneda,pos_arma;
+		Texture *textura_vida, *textura_moneda,*textura_arma;
+		Sprite * sprite_vida, *sprite_moneda,*sprite_arma;
+		 int nummonedas;
+		  Text texto;
+		  Font fuente;
+		  Arma * armaGigante;
 	
 		
 	public:
-
+		int numvidas;
 		void atacar();
 		RectangleShape cubo;
 		RectangleShape arma1;
@@ -50,7 +57,7 @@ class Jugador: public Sprite_arachide{
 		void set_posicion(Vector2f posicion);
 		void set_texture_jugador(String cadena);
 		Vector2f get_posicion();
-		void controles_jugador();
+		void controles_jugador(Event event,Objeto * obj);
 		
 		//void seleccionar_frame();
 		void animar_jugador();
@@ -60,8 +67,36 @@ class Jugador: public Sprite_arachide{
 
 		direcciones direccion = izquierda ; //direccion a la que mira el jugador
 
+		//vidas jugador
 		bool sumar_Vidas(bool tipovida);
+		void quitar_Vida(int cant);
 		void updateSFMLEvents();
+		void set_posicionVida(Vector2f posicion);
+		Sprite get_SpriteVida();
+		void cambiaSpriteVida();
+		void set_spriteVida(IntRect rect);
+
+		//Monedas
+		int get_Monedas();
+		 Sprite get_SpriteMoneda();
+		void set_posicionMoneda(Vector2f posicion);
+		void monedasPorVida();
+		
+		//COFRE
+
+		void abrir_Cofre(Objeto* obj);
+		bool asignarContenido(Objeto * obj);
+	
+		//ARMA
+
+    void set_posicionArma(Vector2f posicion);
+	void set_spriteArma(IntRect recta);
+	void cambiaSpriteArma();
+	Sprite get_SpriteArma();
+
+
+		//REnder jugador
+		void render_jugador();
 };
 
 #endif

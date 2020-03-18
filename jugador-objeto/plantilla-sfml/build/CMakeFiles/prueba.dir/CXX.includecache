@@ -17,6 +17,22 @@ Vida.h
 /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Vida.h
 Objeto.h
 /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Objeto.h
+Moneda.h
+/home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Moneda.h
+
+/home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Arma.h
+Objeto.h
+/home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Objeto.h
+
+/home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Cofre.h
+stdlib.h
+-
+Vida.h
+/home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Vida.h
+Arma.h
+/home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Arma.h
+Moneda.h
+/home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Moneda.h
 
 /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Jugador.h
 SFML/Graphics.hpp
@@ -25,6 +41,14 @@ iostream
 -
 Sprite_arachide.h
 /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Sprite_arachide.h
+Arma.h
+/home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Arma.h
+Cofre.h
+/home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Cofre.h
+
+/home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Moneda.h
+Objeto.h
+/home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Objeto.h
 
 /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Objeto.h
 SFML/Graphics.hpp
@@ -64,6 +88,14 @@ iostream
 unistd.h
 -
 
+/home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Arma.cpp
+../include/Arma.h
+/home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Arma.h
+
+/home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Cofre.cpp
+../include/Cofre.h
+/home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Cofre.h
+
 /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Jugador.cpp
 ../include/Jugador.h
 /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Jugador.h
@@ -73,6 +105,10 @@ SFML/Graphics.hpp
 -
 iostream
 -
+
+/home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Moneda.cpp
+../include/Moneda.h
+/home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Moneda.h
 
 /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Objeto.cpp
 ../include/Objeto.h

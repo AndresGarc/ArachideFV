@@ -3,7 +3,10 @@
 
 CMakeFiles/prueba.dir/main.cpp.o
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Arachide.h
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Arma.h
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Cofre.h
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Jugador.h
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Moneda.h
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Objeto.h
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Sprite_arachide.h
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Vida.h
@@ -11,19 +14,40 @@ CMakeFiles/prueba.dir/main.cpp.o
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/main.cpp
 CMakeFiles/prueba.dir/src/Arachide.cpp.o
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Arachide.h
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Arma.h
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Cofre.h
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Jugador.h
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Moneda.h
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Objeto.h
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Sprite_arachide.h
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Vida.h
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/config.h
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Arachide.cpp
+CMakeFiles/prueba.dir/src/Arma.cpp.o
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Arma.h
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Objeto.h
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Arma.cpp
+CMakeFiles/prueba.dir/src/Cofre.cpp.o
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Arma.h
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Cofre.h
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Moneda.h
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Objeto.h
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Vida.h
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Cofre.cpp
 CMakeFiles/prueba.dir/src/Jugador.cpp.o
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Arachide.h
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Arma.h
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Cofre.h
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Jugador.h
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Moneda.h
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Objeto.h
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Sprite_arachide.h
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Vida.h
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Jugador.cpp
+CMakeFiles/prueba.dir/src/Moneda.cpp.o
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Moneda.h
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Objeto.h
+ /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Moneda.cpp
 CMakeFiles/prueba.dir/src/Objeto.cpp.o
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/include/Objeto.h
  /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Objeto.cpp

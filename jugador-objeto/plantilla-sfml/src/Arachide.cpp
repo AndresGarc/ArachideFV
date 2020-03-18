@@ -29,6 +29,11 @@ void Arachide::iniciar(){
   inicializacion();
   //jugar incluye bucle del juego, procesamiento teclas, update y render
   jugar();
+   //Fase update
+    //updateArachide();
+
+    //Fase renderizado
+    //renderArachide();
 }
  
  void Arachide::inicializacion(){
@@ -39,8 +44,41 @@ void Arachide::iniciar(){
       j1=new Jugador(2,4,2,Vector2i(0,0));
 
       //creamos vida
-      Vida * vida = new Vida(4,240,240,true);
+      Vida * vida = new Vida(4,480,300,true);
       objetos.push_back(vida);
+      Vida * vida1 = new Vida(4,240,240,true);
+      objetos.push_back(vida1);
+      Vida * vida2 = new Vida(4,120,240,true);
+      objetos.push_back(vida2);
+       Vida * vida3 = new Vida(4,50,240,true);
+      objetos.push_back(vida3);
+         Vida * vida4 = new Vida(3,50,350,true);//media vida
+      objetos.push_back(vida4);
+
+
+      //creamos Moneda
+      
+  Moneda * moneda = new Moneda(100,140,true);
+   objetos.push_back(moneda);
+  Moneda *moneda2 = new Moneda(140,140,true);
+  objetos.push_back(moneda2);
+  Moneda *moneda3 = new Moneda(180,140,true);
+  objetos.push_back(moneda3);
+  Moneda *moneda4 = new Moneda(220,140,true); 
+  objetos.push_back(moneda4);
+
+    //creaamos COfre
+  Cofre * cofre = new Cofre(6,60,340,false);
+  objetos.push_back(cofre);
+
+  //Creamos Arma
+  Arma *bate = new Arma(0,260,240,true),
+  *latigo = new Arma(1,350,200,true),
+  *puno = new Arma(2,400,200,true);
+   objetos.push_back(bate);
+    objetos.push_back(latigo);
+     objetos.push_back(puno);
+
 
     //VAriables gravity
     groundHeight=300;
@@ -65,27 +103,8 @@ void Arachide::jugar(){
     
     *cronometro1 = reloj1->getElapsedTime();
     if(cronometro1->asSeconds()>1/fps){
-        while (window->pollEvent(event)) {
 
-          switch(event.type){
-
-            //Si se recibe el evento de cerrar la ventana la cierro
-            case sf::Event::Closed:
-              window->close();
-              break;
-                  //Verifico si se pulsa alguna tecla de movimiento
-            case sf::Event::KeyPressed:    
-                  controles(event);//pulsar tecla
-            break;
-            case sf::Event::KeyReleased:
-                controles2(event);//Soltar tecla
-              break;
-          }
-
-
-        procesar_logica();   
-          
-        }
+      
 
 
     //Fase update
@@ -147,45 +166,47 @@ void Arachide::updateArachide(){
 
 void Arachide::renderArachide(){
   window->clear();
-    window->draw(j1->get_rec_jugador());
-    window->draw(j1->get_Sprite());
-    
-    int cont = 0;
-  if(getObjetos().size() > 0){ //Si hay objetos recoger suelo o interac
-    while(cont < getObjetos().size()){ //Recorrer objetos sala
-      window->draw(getObjetos()[cont]->get_SpriteRect());
-     window->draw(getObjetos()[cont]->get_Sprite());
-      cont++;
-    }
-  }
 
-
-if(j1->atacando){
-      window->draw(j1->cubo);
-      timeAttack=relojico3.getElapsedTime().asSeconds();
-      if(timeAttack > 1){
-        j1->atacando=false;
-        relojico3.restart();
-      }
-}
+    //Render jugador: sprite jugador, sprite HUD, sprite Objeto vida 
+    j1->render_jugador();
     window->display();
     reloj1->restart();
 
 }
 
-void Arachide::controles(Event event){
+void Arachide::controles(Event event,Objeto*obj){
 switch (event.key.code) {
         case sf::Keyboard::Space:
             teclas_j1[4] =true;       
          
           break;
+           case sf::Keyboard::G:
+              j1->monedasPorVida();
+           break;  
+
+           case sf::Keyboard::E:
+                j1->abrir_Cofre(obj);
+           break;
+
+                 
+
+        
         //Mapeo del cursor
          case sf::Keyboard::B:
          j1->arma =bate;
          j1->set_texture_jugador("sprites/jugadorBate.png");          
          
           break;
-
+          //quitar vida
+          case sf::Keyboard:: Numpad1:
+            j1->quitar_Vida(1); //quitar media vida
+          break;
+            case sf::Keyboard::Numpad2:
+            j1->quitar_Vida(2); //quitar vida entera
+          break;
+           case sf::Keyboard::V:
+            cout<<"Numero de vidas actuales: "<<(float)j1->numvidas/2<<endl; //quitar vida entera
+          break;
             case sf::Keyboard::L:
          j1->arma=latigo;
          j1->set_texture_jugador("sprites/latigoBlanco.png");  
@@ -385,5 +406,5 @@ vector<Objeto*> Arachide::getObjetos(){
 
 void Arachide::eraseObjetosRecoger(Objeto * o){
   objetos.erase(std::remove(objetos.begin(), objetos.end(), o), objetos.end());
-  cout<<"se supone que tiene que estar vacio"<<endl;
+  
 }

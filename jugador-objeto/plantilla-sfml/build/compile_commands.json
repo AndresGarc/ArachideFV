@@ -28,5 +28,20 @@
   "directory": "/home/alu/Desktop/jugador-objeto/plantilla-sfml/build",
   "command": "/usr/bin/g++-5      -std=c++1y -Wall -Wextra -g   -o CMakeFiles/prueba.dir/src/Objeto.cpp.o -c /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Objeto.cpp",
   "file": "/home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Objeto.cpp"
+},
+{
+  "directory": "/home/alu/Desktop/jugador-objeto/plantilla-sfml/build",
+  "command": "/usr/bin/g++-5      -std=c++1y -Wall -Wextra -g   -o CMakeFiles/prueba.dir/src/Moneda.cpp.o -c /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Moneda.cpp",
+  "file": "/home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Moneda.cpp"
+},
+{
+  "directory": "/home/alu/Desktop/jugador-objeto/plantilla-sfml/build",
+  "command": "/usr/bin/g++-5      -std=c++1y -Wall -Wextra -g   -o CMakeFiles/prueba.dir/src/Arma.cpp.o -c /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Arma.cpp",
+  "file": "/home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Arma.cpp"
+},
+{
+  "directory": "/home/alu/Desktop/jugador-objeto/plantilla-sfml/build",
+  "command": "/usr/bin/g++-5      -std=c++1y -Wall -Wextra -g   -o CMakeFiles/prueba.dir/src/Cofre.cpp.o -c /home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Cofre.cpp",
+  "file": "/home/alu/Desktop/jugador-objeto/plantilla-sfml/src/Cofre.cpp"
 }
 ]

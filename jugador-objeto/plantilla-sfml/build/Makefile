@@ -177,6 +177,60 @@ src/Arachide.cpp.s:
 	$(MAKE) -f CMakeFiles/prueba.dir/build.make CMakeFiles/prueba.dir/src/Arachide.cpp.s
 .PHONY : src/Arachide.cpp.s
 
+src/Arma.o: src/Arma.cpp.o
+
+.PHONY : src/Arma.o
+
+# target to build an object file
+src/Arma.cpp.o:
+	$(MAKE) -f CMakeFiles/prueba.dir/build.make CMakeFiles/prueba.dir/src/Arma.cpp.o
+.PHONY : src/Arma.cpp.o
+
+src/Arma.i: src/Arma.cpp.i
+
+.PHONY : src/Arma.i
+
+# target to preprocess a source file
+src/Arma.cpp.i:
+	$(MAKE) -f CMakeFiles/prueba.dir/build.make CMakeFiles/prueba.dir/src/Arma.cpp.i
+.PHONY : src/Arma.cpp.i
+
+src/Arma.s: src/Arma.cpp.s
+
+.PHONY : src/Arma.s
+
+# target to generate assembly for a file
+src/Arma.cpp.s:
+	$(MAKE) -f CMakeFiles/prueba.dir/build.make CMakeFiles/prueba.dir/src/Arma.cpp.s
+.PHONY : src/Arma.cpp.s
+
+src/Cofre.o: src/Cofre.cpp.o
+
+.PHONY : src/Cofre.o
+
+# target to build an object file
+src/Cofre.cpp.o:
+	$(MAKE) -f CMakeFiles/prueba.dir/build.make CMakeFiles/prueba.dir/src/Cofre.cpp.o
+.PHONY : src/Cofre.cpp.o
+
+src/Cofre.i: src/Cofre.cpp.i
+
+.PHONY : src/Cofre.i
+
+# target to preprocess a source file
+src/Cofre.cpp.i:
+	$(MAKE) -f CMakeFiles/prueba.dir/build.make CMakeFiles/prueba.dir/src/Cofre.cpp.i
+.PHONY : src/Cofre.cpp.i
+
+src/Cofre.s: src/Cofre.cpp.s
+
+.PHONY : src/Cofre.s
+
+# target to generate assembly for a file
+src/Cofre.cpp.s:
+	$(MAKE) -f CMakeFiles/prueba.dir/build.make CMakeFiles/prueba.dir/src/Cofre.cpp.s
+.PHONY : src/Cofre.cpp.s
+
 src/Jugador.o: src/Jugador.cpp.o
 
 .PHONY : src/Jugador.o
@@ -203,6 +257,33 @@ src/Jugador.s: src/Jugador.cpp.s
 src/Jugador.cpp.s:
 	$(MAKE) -f CMakeFiles/prueba.dir/build.make CMakeFiles/prueba.dir/src/Jugador.cpp.s
 .PHONY : src/Jugador.cpp.s
+
+src/Moneda.o: src/Moneda.cpp.o
+
+.PHONY : src/Moneda.o
+
+# target to build an object file
+src/Moneda.cpp.o:
+	$(MAKE) -f CMakeFiles/prueba.dir/build.make CMakeFiles/prueba.dir/src/Moneda.cpp.o
+.PHONY : src/Moneda.cpp.o
+
+src/Moneda.i: src/Moneda.cpp.i
+
+.PHONY : src/Moneda.i
+
+# target to preprocess a source file
+src/Moneda.cpp.i:
+	$(MAKE) -f CMakeFiles/prueba.dir/build.make CMakeFiles/prueba.dir/src/Moneda.cpp.i
+.PHONY : src/Moneda.cpp.i
+
+src/Moneda.s: src/Moneda.cpp.s
+
+.PHONY : src/Moneda.s
+
+# target to generate assembly for a file
+src/Moneda.cpp.s:
+	$(MAKE) -f CMakeFiles/prueba.dir/build.make CMakeFiles/prueba.dir/src/Moneda.cpp.s
+.PHONY : src/Moneda.cpp.s
 
 src/Objeto.o: src/Objeto.cpp.o
 
@@ -300,9 +381,18 @@ help:
 	@echo "... src/Arachide.o"
 	@echo "... src/Arachide.i"
 	@echo "... src/Arachide.s"
+	@echo "... src/Arma.o"
+	@echo "... src/Arma.i"
+	@echo "... src/Arma.s"
+	@echo "... src/Cofre.o"
+	@echo "... src/Cofre.i"
+	@echo "... src/Cofre.s"
 	@echo "... src/Jugador.o"
 	@echo "... src/Jugador.i"
 	@echo "... src/Jugador.s"
+	@echo "... src/Moneda.o"
+	@echo "... src/Moneda.i"
+	@echo "... src/Moneda.s"
 	@echo "... src/Objeto.o"
 	@echo "... src/Objeto.i"
 	@echo "... src/Objeto.s"

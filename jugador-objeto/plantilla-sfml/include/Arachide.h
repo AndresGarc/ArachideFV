@@ -5,6 +5,7 @@
 #include "Jugador.h"
 #include "Vida.h"
 #include "Objeto.h"
+#include "Moneda.h"
 
 using namespace sf;
 
@@ -28,11 +29,12 @@ class Arachide{
 		Arachide();
 		 float groundHeight;
     	 float gravitySpedd;
-		  Clock relojico,relojico2,relojico3;
-		  float timeAnim,timeAnim2,timeAttack;
+		
+		
 
 	public:
-	
+		 Clock relojico,relojico2,relojico3;
+		  float timeAnim,timeAnim2,timeAttack;
 		void jugar();
 		void iniciar();
 		void inicializacion();
@@ -40,7 +42,7 @@ class Arachide{
 		void updateArachide();
 		Event event;
 		
-		void controles(Event event);
+		void controles(Event event,Objeto*obj);
 		void controles2(Event event);
 
 		void procesar_logica();
@@ -59,6 +61,10 @@ class Arachide{
 
 		vector<Objeto*> getObjetos();
 		void eraseObjetosRecoger(Objeto *o);
+
+		
+
+		
 };
 
 #endif
